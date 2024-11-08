@@ -10,6 +10,10 @@ const product = () => {
   const [productData, setProductData] = useState(false);
   const [size, setSize] = useState("")
   const [image, setImage] = useState("")
+
+  const fetchProductData= async () => {
+    
+  }
   return (
     <div>
       
