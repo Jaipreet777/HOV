@@ -7,7 +7,7 @@ import Product from '../pages/Product'
 const App = () => {
   return (
     <div className='px-4 sm:px-[5vm] md:px-[7vm] 1g:px-[9vm]'>
-       
+      <Navbar/>
       <Routes >
         <Route path='/collection' element={<Collection />} />
         <Route path='/product/:productId' element={<Product />} />
