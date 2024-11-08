@@ -1,5 +1,3 @@
-import cart from './cart.png'
-import logo from './logo.png'
 import men1 from './men1.jpg'
 import men2 from './men2.jpg'
 import men3 from './men3.jpg'
@@ -22,7 +20,13 @@ import picturec from './picturec.jpg'
 import pictured from './pictured.jpg'
 import video1 from './video1.mp4'
 
+import cart from './cart.png'
+import logo from './logo.png'
 
+export const assets={
+    logo,
+    cart,
+}
 
 
 
