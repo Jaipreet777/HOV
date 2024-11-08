@@ -68,8 +68,14 @@ const Collection = () => {
           applyFilter();
           break;
       }
-   
     }
+    useEffect(() => {
+      applyFilter()
+    }, [category, subCategory, search, showSearch])
+   
+    useEffect(() => {
+      sortProduct();
+    }, [sortType])
   return (
     <div>
       
