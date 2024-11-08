@@ -3,6 +3,7 @@ import {Routes,Route} from 'react-router-dom'
 import Home from './pages/Home'
 import Collection from './pages/Collection'
 import Product from '../pages/Product'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
@@ -17,3 +18,7 @@ const App = () => {
 }
 
 export default App
+
+//REf: https://chatgpt.com/
+// How we reslove the issue when the route is not importing correctly 
+//Ref: www.youtube.com for learning how routes work and react toastify 
