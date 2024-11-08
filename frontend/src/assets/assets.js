@@ -27,6 +27,21 @@ export const assets={
     logo,
     cart,
 }
+export const products =[
+    {
+        _id: 'A',
+        name: "Red simple Suit",
+        description: "A lightweight allover suit with simple dupatta and kadai on it",
+        price: 100,
+        image: {photo},
+        category: "Women",
+        subcategory: "Designer Suit",
+        sizes: ["S", "M", "L"],
+        date: 1234456789900,
+        bestselller: true
+
+    }
+]
 
 
 
