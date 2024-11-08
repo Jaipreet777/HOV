@@ -26,6 +26,7 @@ import logo from './logo.png'
 export const assets={
     logo,
     cart,
+    search_icon,
 }
 export const products =[
     {
