@@ -24,7 +24,11 @@ const Navbar = () => {
             <p>Collection</p>
             <hr className='w-2/4 border-none h-[1.5px] bg-gray-700'/>
         </NavLink>
+      
       </ul>
+      <div className='flex items-center gap-6'>
+        <img src={assets.search_icon} className='w-5 cursor-pointer' alt=''/>
+      </div>
     </div>
   )
 }
