@@ -26,6 +26,9 @@ import logo from './logo.png'
 export const assets={
     logo,
     cart,
+    search_icon,
+    star_icon,
+    star_dull_icon,
 }
 export const products =[
     {
@@ -38,6 +41,32 @@ export const products =[
         subcategory: "Designer Suit",
         sizes: ["S", "M", "L"],
         date: 1234456789900,
+        bestselller: true
+
+    },
+    {
+        _id:'B',
+        name: "Green kurta Set",
+        description: "A lightweight allover suit with simple dupatta and kadai on it",
+        price:200,
+        image:{men1},
+        category: "Men",
+        subcategory:"Kurtas",
+        sizes: ["S", "M", "L"],
+        date:13435467690098765,
+        bestselller: true
+
+    },
+    {
+        _id:'B',
+        name: "White Anarkali Suit",
+        description: "A lightweight allover suit with simple dupatta and kadai on it",
+        price:200,
+        image:{men1},
+        category: "Women",
+        subcategory:"Kurtas",
+        sizes: ["S", "M", "L"],
+        date:13435467690098765,
         bestselller: true
 
     }
