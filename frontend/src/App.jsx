@@ -1,6 +1,5 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
-import Home from './pages/Home'
 import Collection from './pages/Collection'
 import Product from '../pages/Product'
 import Navbar from './components/Navbar'
