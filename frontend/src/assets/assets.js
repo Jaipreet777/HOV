@@ -43,7 +43,7 @@ export const products =[
         date: 1234456789900,
         bestselller: true
 
-    }
+    },
     {
         _id:'B',
         name: "Green kurta Set",
