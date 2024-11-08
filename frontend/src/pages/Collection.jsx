@@ -11,13 +11,25 @@ const Collection = () => {
     const [showFilter, setShowFilter] = useStatec(false);
     const[sortType, setSortType] = useState('relevant')
     
-    const toggleCategory =(e) => {
-      if (caategory.includes(e.target.value)){
+    const toggleCategory = (e) => {
+ 
+      if (category.includes(e.target.value)) {
         setCategory(prev => prev.filter(a => a !== e.target.value))
       }
-      else{
-        setCategory{prev =>[...prev,e.target.value]}
+      else {
+        setCategory(prev => [...prev, e.target.value])
       }
+    }
+   
+    const toggleSubCategory = (e) => {
+   
+      if (subCategory.includes(e.target.value)) {
+        setSubCategory(prev => prev.filter(a => a !== e.target.value))
+      }
+      else {
+        setSubCategory(prev => [...prev, e.target.value])
+      }
+   
     }
   return (
     <div>
