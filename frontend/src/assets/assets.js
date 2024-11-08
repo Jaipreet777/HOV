@@ -42,5 +42,18 @@ export const products =[
         bestselller: true
 
     }
+    {
+        _id:'B',
+        name: "Green kurta Set",
+        description: "A lightweight allover suit with simple dupatta and kadai on it",
+        price:200,
+        image:{men1},
+        category: "Men",
+        subcategory:"Kurtas",
+        sizes: ["S", "M", "L"],
+        date:13435467690098765,
+        bestselller: true
+
+    }
 ]
 
