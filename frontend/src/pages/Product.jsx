@@ -20,6 +20,10 @@ const product = () => {
       }
     })
   }
+  useEffect(() => {
+    fetchProductData()
+  }, [productId])
+
   return (
     <div>
       
