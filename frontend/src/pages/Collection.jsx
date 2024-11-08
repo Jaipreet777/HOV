@@ -31,6 +31,45 @@ const Collection = () => {
       }
    
     }
+    const applyFilter = () => {
+ 
+      let productsCopy = products.slice()
+   
+      if (showSearch && search) {
+        productsCopy = productsCopy.filter(item => item.name.toLowerCase().includes(search.toLowerCase()))
+      }
+   
+      if (category.length > 0) {
+        productsCopy = productsCopy.filter(item => category.includes(item.category));
+      }
+   
+      if (subCategory.length > 0) {
+        productsCopy = productsCopy.filter(item => subCategory.includes(item.subCategory));
+      }
+   
+      setFilterProducts(productsCopy)
+   
+    }
+   
+    const sortProduct = async () => {
+   
+      let fpCopy = filterProducts.slice();
+   
+      switch (sortType) {
+        case 'low-high':
+          setFilterProducts(fpCopy.sort((a, b) => (a.price - b.price)));
+          break;
+   
+        case 'high-low':
+          setFilterProducts(fpCopy.sort((a, b) => (b.price - a.price)));
+          break;
+   
+        default:
+          applyFilter();
+          break;
+      }
+   
+    }
   return (
     <div>
       
