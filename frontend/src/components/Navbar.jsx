@@ -29,6 +29,9 @@ const Navbar = () => {
       <div className='flex items-center gap-6'>
         <img src={assets.search_icon} className='w-5 cursor-pointer' alt=''/>
       </div>
+      <Link to='/cart' className='relative'>
+          <img src={assets.cart} alt=''/>
+      </Link>
     </div>
   )
 }
