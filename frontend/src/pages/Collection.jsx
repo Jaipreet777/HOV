@@ -6,6 +6,10 @@ import { assets } from '../assets/assets'
 
 const Collection = () => {
     const{products, search, showSearch} = usecontext(Shopcontext);
+    const [filterProducts, setFilterProducts] = useState([]);
+    const [category, setCategory] = useState([]);
+    const [showFilter, setShowFilter] = useStatec(false);
+    const[sortType, setSortType] = useState('relevant')
     
   return (
     <div>
