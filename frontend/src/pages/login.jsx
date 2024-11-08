@@ -3,7 +3,7 @@ const Login = () => {
   const [currentState, setCurrentState] = useState("Login");
   // Form Submission Handler Function
   const OnSubmitHandler = async (e) => {
-    e.preventdefault();
+    e.preventDefault();
   };
 
   //CSS Styling
