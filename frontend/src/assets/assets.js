@@ -27,6 +27,8 @@ export const assets={
     logo,
     cart,
     search_icon,
+    star_icon,
+    star_dull_icon,
 }
 export const products =[
     {
