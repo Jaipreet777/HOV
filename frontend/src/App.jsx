@@ -3,12 +3,12 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/login";
 import Collection from "./pages/Collection";
-import Product from "../pages/Product";
+import Product from "./pages/Product";
 import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="px-4 sm:px-[5vm] md:px-[7vm] 1g:px-[9vm]">
+    <div className="px-4 sm:px-[5vm] md:px-[7vm] lg:px-[9vm]">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
