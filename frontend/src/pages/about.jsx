@@ -39,6 +39,9 @@ const About = () => {
           ordering to delivery and beyond.
         </p>
       </div>
+      <div className="text-xl py-4">
+        <Title text1={"WHY"} text2={"CHOOSE US"} />
+      </div>
     </div>
   );
 };
