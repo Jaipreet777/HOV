@@ -51,6 +51,13 @@ const About = () => {
           </p>
         </div>
       </div>
+      <div className="border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5">
+        <b>Convenience: </b>
+        <p className="text-gray-600">
+          With our user-friendly interface and hassle-free ordering process,
+          shopping has never been easier.
+        </p>
+      </div>
     </div>
   );
 };
