@@ -58,6 +58,13 @@ const About = () => {
           shopping has never been easier.
         </p>
       </div>
+      <div className="border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5">
+        <b>Exceptional Customer Service:</b>
+        <p className="text-gray-600">
+          Our team of dedicated professionals is here to assist you the way,
+          ensuring your satisfaction is our top priority.
+        </p>
+      </div>
     </div>
   );
 };
