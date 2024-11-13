@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import login from "./pages/login";
+import Login from "./pages/login";
 import Collection from "./pages/Collection";
 import Product from "../pages/Product";
 import Navbar from "./components/Navbar";
@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/collection" element={<Collection />} />
         <Route path="/product/:productId" element={<Product />} />
       </Routes>
