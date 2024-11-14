@@ -65,6 +65,7 @@ const About = () => {
           ensuring your satisfaction is our top priority.
         </p>
       </div>
+      <NewsletterBox />
     </div>
   );
 };
