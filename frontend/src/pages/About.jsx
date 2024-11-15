@@ -27,9 +27,7 @@ const About = () => {
           <p>
             Since our inception, we've worked tirelessly to curate a diverse
             selection of high-quality products that cater to every taste and
-            preference. From fashion and beauty to electronics and home
-            essentials, we offer an extensive collection sourced from trusted
-            brands and suppliers.
+            preference.
           </p>
           <b className="text-gray-800">Our Mission</b>
           <p>
