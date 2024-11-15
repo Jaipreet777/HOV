@@ -38,3 +38,6 @@ const BestSeller = () => {
 };
 
 export default BestSeller;
+
+//https://www.youtube.com/watch?v=ZF73dpgRrWI
+//https://chatgpt.com/c/67374303-ff14-8007-8c89-8507bd8c4586
