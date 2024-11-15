@@ -42,3 +42,5 @@ const Footer = () => {
     </div>
   );
 };
+
+//https://chatgpt.com/c/6737420c-84c0-8007-b2e0-390ec15f0c5c

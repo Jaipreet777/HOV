@@ -30,3 +30,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// https://chatgpt.com/c/673741bd-1454-8007-b64c-6b6c4a8e9da2
