@@ -74,3 +74,6 @@ const About = () => {
 };
 
 export default About;
+
+//https://www.youtube.com/watch?v=ZF73dpgRrWI
+//https://chatgpt.com/c/67374639-0b90-8007-802a-68a63f2f04d5
