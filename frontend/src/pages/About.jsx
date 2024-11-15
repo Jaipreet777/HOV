@@ -27,7 +27,8 @@ const About = () => {
           <p>
             Since our inception, we've worked tirelessly to curate a diverse
             selection of high-quality products that cater to every taste and
-            preference.
+            preference. we offer a wide range of our products hand-made and
+            stitched in India by our professionals.
           </p>
           <b className="text-gray-800">Our Mission</b>
           <p>
