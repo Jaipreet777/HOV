@@ -6,4 +6,5 @@ import ProductItem from './ProductItem';
 const RelatedProducts = ({category,subCategory}) => {
 
     const { products } = useContext(ShopContext);
-    const [related,setRelated] = useState([]); }
+    const [related,setRelated] = useState([]); 
+        useEffect(()=>}
