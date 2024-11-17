@@ -11,4 +11,15 @@ const RelatedProducts = ({category,subCategory}) => {
             
             let productsCopy = products.slice();
             
-            productsCopy = productsCopy.filter((item) => category === item.category);}}}
+            productsCopy = productsCopy.filter((item) => category === item.category);
+            productsCopy = productsCopy.filter((item) => subCategory === item.subCategory);
+
+            setRelated(productsCopy.slice(0,5));
+        }
+    },[products])
+
+    return (
+      <div className='my-24'>
+        <div className=' text-center text-3xl py-2'>
+          <Title text1={'RELATED'} text2={"PRODUCTS"} />
+        </div>
