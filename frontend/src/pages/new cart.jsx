@@ -13,3 +13,6 @@ const CartPage = () => {
       const calculateTotal = () => {
         return cart.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2);
       };
+      return (
+        <div className="container mx-auto mt-10">
+          <h2 className="text-2xl font-semibold mb-5">Shopping Cart</h2>
