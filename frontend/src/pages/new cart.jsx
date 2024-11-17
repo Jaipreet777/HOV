@@ -19,3 +19,5 @@ const CartPage = () => {
           {cart.length > 0 ? (
         <div>
           <div className="grid grid-cols-3 gap-4"></div>
+          {cart.map((item) => (
+              <div key={item.id} className="border rounded p-4 shadow-sm"></div>
