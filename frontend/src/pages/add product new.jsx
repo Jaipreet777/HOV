@@ -53,3 +53,8 @@ const handleSubmit = async (e) => {
       <h2 style={titleStyle}>Add Product</h2>
       <form onSubmit={handleSubmit} style={formStyle}>
         <input
+         return (
+            <div style={formContainerStyle}>
+              <h2 style={titleStyle}>Add Product</h2>
+              <form onSubmit={handleSubmit} style={formStyle}>
+                <input
