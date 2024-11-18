@@ -33,3 +33,5 @@ const handleSubmit = async (e) => {
       description,
         imageUrl,
       });
+      alert('Product added successfully!');
+      setName('');
