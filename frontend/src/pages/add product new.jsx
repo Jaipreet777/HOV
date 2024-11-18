@@ -16,3 +16,7 @@ export default function AddProduct() {
   const handleImagePreview = (url) => {
     setImageUrl(url);
     setImagePreview(url);
+};
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
