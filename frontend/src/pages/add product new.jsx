@@ -13,3 +13,6 @@ export default function AddProduct() {
   const [description, setDescription] = useState('');
   const [imageUrl, setImageUrl] = useState('');
   const [imagePreview, setImagePreview] = useState('');
+  const handleImagePreview = (url) => {
+    setImageUrl(url);
+    setImagePreview(url);
