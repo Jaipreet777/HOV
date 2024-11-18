@@ -35,3 +35,5 @@ const handleSubmit = async (e) => {
       });
       alert('Product added successfully!');
       setName('');
+      setCategory('');
+      setPrice('');
