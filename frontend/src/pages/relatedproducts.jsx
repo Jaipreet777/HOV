@@ -38,3 +38,5 @@ const RelatedProducts = ({category,subCategory}) => {
 }
 
 export default RelatedProducts
+//ref: https://www.w3schools.com/
+//ref: https://chatgpt.com/ "Generate a React component named RelatedProducts that displays a list of related products based on a given category and subCategory." 
