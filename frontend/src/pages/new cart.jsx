@@ -30,3 +30,4 @@ const CartPage = () => {
                     type="number"
                     min="1"
                     value={item.quantity}
+                    
