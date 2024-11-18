@@ -30,3 +30,6 @@ const handleSubmit = async (e) => {
       category,
       price: parseFloat(price),
       stock: parseInt(stock, 10),
+      description,
+        imageUrl,
+      });
