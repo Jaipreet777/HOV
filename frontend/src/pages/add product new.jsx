@@ -27,3 +27,6 @@ const handleSubmit = async (e) => {
   try {
     await addDoc(collection(db, 'products'), {
       name,
+      category,
+      price: parseFloat(price),
+      stock: parseInt(stock, 10),
