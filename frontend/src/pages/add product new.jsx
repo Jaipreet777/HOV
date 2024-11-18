@@ -37,3 +37,5 @@ const handleSubmit = async (e) => {
       setName('');
       setCategory('');
       setPrice('');
+      setStock('');
+      setDescription('');
