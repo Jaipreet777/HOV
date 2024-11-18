@@ -24,3 +24,6 @@ const handleSubmit = async (e) => {
     alert('Please fill in all fields.');
     return;
   }
+  try {
+    await addDoc(collection(db, 'products'), {
+      name,
