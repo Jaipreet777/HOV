@@ -20,3 +20,7 @@ export default function AddProduct() {
 
 const handleSubmit = async (e) => {
   e.preventDefault();
+  if (!name || !category || !price || !stock || !description || !imageUrl) {
+    alert('Please fill in all fields.');
+    return;
+  }
