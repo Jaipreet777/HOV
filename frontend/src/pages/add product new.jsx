@@ -41,3 +41,10 @@ const handleSubmit = async (e) => {
       setDescription('');
       setStock('');
       setDescription('');
+      setImageUrl('');
+      setImagePreview('');
+    } catch (error) {
+      console.error('Error adding product: ', error);
+      alert('Failed to add product.');
+    }
+  };
