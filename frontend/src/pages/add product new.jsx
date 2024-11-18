@@ -9,4 +9,7 @@ export default function AddProduct() {
   const [name, setName] = useState('');
   const [category, setCategory] = useState('');
   const [price, setPrice] = useState('');
-  const [stock, setStock] = useState('');}
+  const [stock, setStock] = useState('');
+  const [description, setDescription] = useState('');
+  const [imageUrl, setImageUrl] = useState('');
+  const [imagePreview, setImagePreview] = useState('');
