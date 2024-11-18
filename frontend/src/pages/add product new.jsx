@@ -48,3 +48,8 @@ const handleSubmit = async (e) => {
       alert('Failed to add product.');
     }
   };
+  return (
+    <div style={formContainerStyle}>
+      <h2 style={titleStyle}>Add Product</h2>
+      <form onSubmit={handleSubmit} style={formStyle}>
+        <input
