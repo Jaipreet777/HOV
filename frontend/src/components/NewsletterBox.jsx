@@ -42,20 +42,49 @@ const NewsletterBox = () => {
         }
       );
   };
-};
 
-return (
-  <div className="text-center">
-    <p className="text-2xl font-medium text-gray-800">
-      Subscribe now & get 20% off
-    </p>
-    <p className="text-gray-400 mt-3">
-      Stay updated with the latest trends and exclusive offers from House of
-      Virasat. Be the first to explore our new collections and enjoy special
-      discounts delivered straight to your inbox. Don't miss out on celebrating
-      tradition with a touch of modern elegance!
-    </p>
-  </div>
-);
+  return (
+    <div className="text-center">
+      <p className="text-2xl font-medium text-gray-800">
+        Subscribe now & get 20% off
+      </p>
+      <p className="text-gray-400 mt-3">
+        Stay updated with the latest trends and exclusive offers from House of
+        Virasat. Be the first to explore our new collections and enjoy special
+        discounts delivered straight to your inbox. Don't miss out on
+        celebrating tradition with a touch of modern elegance!
+      </p>
+      <form
+        onSubmit={handleSubmit}
+        className="w-full sm:w-1/2 flex flex-col gap-3 mx-auto my-6"
+      >
+        <input
+          className="w-full px-4 py-2 border rounded-lg"
+          type="email"
+          placeholder="Enter your email id"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+        />
+        <button
+          className="bg-black text-white text-xs px-10 py-4 rounded-lg hover:bg-gray-800"
+          type="submit"
+        >
+          SUBSCRIBE
+        </button>
+      </form>
+
+      {message && (
+        <p
+          className={`mt-3 text-sm ${
+            message.startsWith("Hello") ? "text-green-500" : "text-red-500"
+          }`}
+        >
+          {message}
+        </p>
+      )}
+    </div>
+  );
+};
 
 export default NewsletterBox;
