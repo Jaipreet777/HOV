@@ -88,3 +88,5 @@ const NewsletterBox = () => {
 };
 
 export default NewsletterBox;
+
+//https://ca.video.search.yahoo.com/search/video?fr=mcafee&p=how+to+connect+email+js+to+react+project&type=E210CA105G0#id=1&vid=a05702419e1a3d636f855df2c4252b68&action=click
