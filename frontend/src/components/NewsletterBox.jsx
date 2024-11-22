@@ -4,6 +4,44 @@ import emailjs from "emailjs-com";
 const NewsletterBox = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setMessage("");
+
+    // Validate email format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setMessage("Please enter a valid email address.");
+      return;
+    }
+
+    const templateParams = {
+      email: email, // Replace {{email}} in the EmailJS template
+    };
+
+    console.log("Template Params:", templateParams); // Debugging
+
+    emailjs
+      .send(
+        "service_ugah9zq",
+        "template_syzhhs3",
+        templateParams,
+        "1uee6R4PmOytWeyYL"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setMessage(
+            `Hello ${email}, thank you for subscribing! Check your inbox for updates.`
+          );
+          setEmail(""); // Reset email input
+        },
+        (error) => {
+          console.error("FAILED...", error);
+          setMessage("Failed to subscribe. Please try again.");
+        }
+      );
+  };
 };
 
 return (
