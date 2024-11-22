@@ -1,19 +1,23 @@
-import React from 'react'
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const NewsletterBox = () => {
-  return (
-    <div className='text-center'>
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+};
 
-      <p className='text-2xl font-medium text-gray-800'>Subscribe now & get 20% off</p>
-      <p className='text-gray-400 mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+return (
+  <div className="text-center">
+    <p className="text-2xl font-medium text-gray-800">
+      Subscribe now & get 20% off
+    </p>
+    <p className="text-gray-400 mt-3">
+      Stay updated with the latest trends and exclusive offers from House of
+      Virasat. Be the first to explore our new collections and enjoy special
+      discounts delivered straight to your inbox. Don't miss out on celebrating
+      tradition with a touch of modern elegance!
+    </p>
+  </div>
+);
 
-      <form className='w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3'>
-        <input className='w-full sm:flex-1 outline-none' type="text" placeholder='Enter your email id' required />
-        <button className='bg-black text-white text-xs px-10 py-4' type='submit'>SUBSCRIBE</button>
-      </form>
-
-    </div>
-  )
-}
-
-export default NewsletterBox
+export default NewsletterBox;
