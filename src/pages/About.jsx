@@ -73,3 +73,7 @@ const About = () => {
 };
 
 export default About;
+
+//https:chatgpt.com/c/675504af-bb48-8007-9655-7e0decde341e
+//www.youtube.com/watch?v=Oqsf0M1Gx8U
+//tailwindflex.com/tag/about-us
