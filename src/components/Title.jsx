@@ -12,3 +12,5 @@ const Title = ({ text1, text2 }) => {
 };
 
 export default Title;
+
+//https:chatgpt.com/c/675507d7-967c-8007-a359-59100077f89a
