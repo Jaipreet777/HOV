@@ -37,3 +37,6 @@ const RelatedProducts = ({ category, subCategory }) => {
 }
 
 export default RelatedProducts
+
+//ChatGPT - Give me a React component that shows related products based on the category and subCategory passed as props
+//https://www.w3schools.com
