@@ -17,7 +17,4 @@ const Home = () => {
   )
 }
 
-export default Home
-   
-
-// rav
+export default Home 
