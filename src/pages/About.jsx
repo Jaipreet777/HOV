@@ -74,6 +74,6 @@ const About = () => {
 
 export default About;
 
-//https:chatgpt.com/c/675504af-bb48-8007-9655-7e0decde341e
+//ChatGPT - Examples of React components designed for "About Us" sections, including newsletterbox component and importing image from assets.
 //https:www.youtube.com/watch?v=Oqsf0M1Gx8U
 //https:tailwindflex.com/tag/about-us

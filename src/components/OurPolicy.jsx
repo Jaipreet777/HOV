@@ -25,6 +25,6 @@ const OurPolicy = () => {
 
 export default OurPolicy;
 
-//https:chatgpt.com/c/673c226d-b2b0-8007-92d9-bf2e332d9134
-//https:chatgpt.com/c/673c22a9-a5f0-8007-adea-8e2aa3eda3c1
+//ChatGPT - I need a React functional component named OurPolicy that displays three key policies: "Easy Exchange Policy," "7 Days Return Policy," and "Best Customer Support." Each policy should include an icon, a bold heading, and a description, all styled using Tailwind CSS. The layout should be responsive, displaying the policies in a row on larger screens and stacking them vertically on smaller screens. Icons should be sourced from an assets object. Could you provide the complete React JSX code for this component?
+//ChatGPT - Can you create a responsive React component called OurPolicy? It should display three policies side by side on larger screens and stack them vertically on smaller screens.
 //https:tailwindcss.com/docs/responsive-design
