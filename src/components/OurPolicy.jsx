@@ -24,3 +24,7 @@ const OurPolicy = () => {
 };
 
 export default OurPolicy;
+
+//https:chatgpt.com/c/673c226d-b2b0-8007-92d9-bf2e332d9134
+//https:chatgpt.com/c/673c22a9-a5f0-8007-adea-8e2aa3eda3c1
+//https:tailwindcss.com/docs/responsive-design
