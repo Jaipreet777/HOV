@@ -1,2 +1,0 @@
-(this["webpackJsonpwishlist-drawer"]=this["webpackJsonpwishlist-drawer"]||[]).push([[6],{34:function(s,e,r){"use strict";r.r(e),r.d(e,"default",(function(){return a}));var t=r(0),i=r.n(t),n=r(1);class a extends i.a.Component{render(){return Object(n.jsx)("div",{className:"iwish-backdrop",onClick:this.props.close})}}}}]);
-//# sourceMappingURL=6.chunk.js.map
