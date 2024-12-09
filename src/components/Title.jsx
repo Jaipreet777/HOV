@@ -13,4 +13,5 @@ const Title = ({ text1, text2 }) => {
 
 export default Title;
 
-//ChatGPT -
+//ChatGPT - I AM MAKING A TITLE.JSX COMPONENT THAT SHOULD INCLUDE 2 TEXTS LIKE TEXT 1 AND TEXT 2
+//https://www.freecodecamp.org/news/react-components-jsx-props-for-beginners
