@@ -19,7 +19,7 @@ const Home = () => {
 
 export default Home;
 
-//https:chatgpt.com/c/673c240b-5000-8007-a3f4-441519713be4
-//https:chatgpt.com/c/673c251f-3468-8007-a1d0-38e2eddc8bc1
+//ChatGPT - I am building a React application using Vite. I need a Home component that acts as the main landing page of the website. The Home component should import and render some child components in a sequence there are 4 of those.
+//ChatGPT - Can you explain how to create a Home component in React that imports child components from a components directory and renders them sequentially?
 //https:www.youtube.com/watch?v=Dorf8i6lCuk
 //https:github.com/react-boilerplate/react-boilerplate/blob/master/app/containers/HomePage/index.js

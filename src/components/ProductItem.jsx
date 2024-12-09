@@ -18,3 +18,6 @@ const ProductItem = ({ id, image, name, price }) => {
 };
 
 export default ProductItem;
+
+// ChatGPT - Give me a React component called ProductItem that displays individual product details like an image, name, and price
+// https://www.w3schools.com

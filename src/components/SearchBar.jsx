@@ -40,3 +40,7 @@ const SearchBar = () => {
 };
 
 export default SearchBar;
+
+//https://www.youtube.com/watch?v=B_e4UQepans
+//ChatGPT - Generate a React functional component for a SearchBar that uses useContext, useEffect, and useState. It should conditionally render based on a context value and include a controlled input field with Tailwind CSS styling.
+//ChatGPT - Write a SearchBar component in React with responsive Tailwind CSS styles. Include an input field, a search icon, and a close button. Ensure the component is keyboard-accessible.

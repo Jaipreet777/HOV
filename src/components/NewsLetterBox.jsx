@@ -92,4 +92,4 @@ const NewsletterBox = () => {
 export default NewsletterBox;
 
 //https://ca.video.search.yahoo.com/search/video?fr=mcafee&p=how+to+connect+email+js+to+react+project&type=E210CA105G0#id=1&vid=a05702419e1a3d636f855df2c4252b68&action=click
-//https://chatgpt.com/c/67402466-cba4-8007-9b9e-2de2eda0aa1c - error
+//ChatGPT - i am connecting emailjs to my react project - i got this error - api.emailjs.com/api/v1.0/email/send:1 Failed to load resource: the server responded with a status of 400 ()Understand this errorAINewsletterBox.jsx:48 FAILED... EmailJSResponseStatus - error
