@@ -1,0 +1,2 @@
+.account-drawer-middle{margin:auto}.tabs{display:flex;flex-wrap:wrap;justify-content:space-around}label.account-action{font-size:1.5rem;width:50%;text-transform:uppercase;font-weight:500;padding:.5rem 0;cursor:pointer}.tabs .tab{order:99;flex-grow:1;width:100%;display:none}.tabs input[type=radio]{display:none}.tabs input[type=radio]:checked+label{border-bottom:2px solid #E2B66A}.tabs input[type=radio]:checked+label+.tab{display:block}
+/*# sourceMappingURL=/cdn/shop/t/123/assets/tabs.css.map?v=70772509026311370351731285863 */
